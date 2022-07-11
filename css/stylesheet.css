@@ -1,0 +1,18 @@
+div{
+    background-color: bisque;
+}
+body{
+    font-size:20px ;
+}
+#prod .prod,
+#today fashion .prod{
+    background-color: aquamarine;
+    color: #ff0000;
+
+}
+#product{
+    font-size: 4em;
+}
+/*#today fashion .prod{
+    background-color: rgb(96, 190, 158);
+}

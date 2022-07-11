@@ -1,0 +1,81 @@
+[{   
+    "mobilename": "RealmeX2 Pro",
+    "brand" : "Realme",
+    "price" : "30999",
+    "category": "android1",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX3 Pro",
+    "brand" : "Realme",
+    "price" : "40999",
+    "category": "android",
+    "rating":"5",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX4 Pro",
+    "brand" : "Realme",
+    "price" : "30999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX5 Pro",
+    "brand" : "Realme",
+    "price" : "30999",
+    "category": "android1",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX6 Pro",
+    "brand" : "Realme",
+    "price" : "70999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX7 Pro",
+    "brand" : "Realme",
+    "price" : "80999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX8 Pro",
+    "brand" : "Realme",
+    "price" : "90999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX9 Pro",
+    "brand" : "Realme",
+    "price" : "100999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX10 Pro",
+    "brand" : "Realme",
+    "price" : "110999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ },
+ {   
+    "mobilename": "RealmeX11 Pro",
+    "brand" : "Realme",
+    "price" : "120999",
+    "category": "android",
+    "rating":"4",
+    "latest":"true"
+ }
+]

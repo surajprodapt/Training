@@ -1,0 +1,15 @@
+#Box{
+    height: 300px;
+    width: 150px;
+    text-align: center;
+    background-color: bisque;
+    margin: 30px 20px;
+    padding: 40px 50px;
+    border: 5px solid #882277;
+    
+}
+#h3{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #882277;
+}

@@ -1,0 +1,45 @@
+[{   
+    "product_picture":"th.jpg ",
+    "mobilename": "Apple 6",
+    "model": "RMX1931",
+    "brand" : "Apple",
+    "price" : "50000",
+    "camera" :"64 MP",
+    "processor": "SD855+",
+    "description":"Description",
+    "Buynow":"Buy Now"
+ 
+ },
+ {
+    "product_picture":"th.jpg",
+    "mobilename": "Apple 7 ",
+    "model": "RMX1981",
+    "brand" : "Apple",
+    "price" : "79999",
+    "camera" :"64 MP",
+    "processor": "SD765G",
+    "description":"Description",
+    "Buynow":"Buy Now"
+  },
+  {
+    "product_picture":"th.jpg",
+    "mobilename": "Apple11 Promax",
+    "model": "XM 3271",
+    "brand" : "Apple",
+    "price" : "100999",
+    "camera" :"108 MP",
+    "processor": "SD765+",
+    "description":"Description"
+  
+  },
+  {
+    "product_picture":"th.jpg",
+    "mobilename": "Apple 12 Pro",
+    "model": "XM 3371",
+    "brand" : "Apple",
+    "price" : "37999",
+    "camera" :"108 MP",
+    "processor": "SD865+",
+    "description":"Description"
+  
+  }]

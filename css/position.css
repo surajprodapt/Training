@@ -1,0 +1,22 @@
+#Box{
+    position: relative;
+    width: 450px;
+    height: 250px;
+    background-color: red;
+}
+#child{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#ch_box{
+    position: fixed;
+    bottom: 0%;
+    right: 50%;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}

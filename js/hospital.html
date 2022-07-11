@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment</title>
+    <style>
+        body {
+            background-color: rgb(170, 209, 207);
+            padding-left: 450px;
+            margin: 50px;
+        }
+
+        #h1 {
+            font-size: small;
+            font-weight: 100px;
+        }
+
+        #btn {
+            padding-left: 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Request Routine Dental Appointment Form</h1>
+    <form id="form">
+        <div id="name">
+            <label for="fname"> Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required maxlength="15">
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required maxlength="15">
+        </div><br>
+        <div id="pe">
+            <label for="number">Phone Number</label>
+            <input type="number" id="no" name="no" placeholder="### ### ####" required maxlength="10">
+            <label for="email">email id</label>
+            <input type="email" id="email" name="email" placeholder="suraj@gmail.com" required>
+        </div><br>
+
+        <div id="da">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="doa">Date of Appointment</label>
+            <input type="date" id="doa" name="doa" required>
+        </div><br>
+        <div id="toa">
+            <label for="toa">Time of Appointment</label>
+            <input type="time" id="toa" name="toa" placeholder="HH:MM" required>
+        </div><br>
+        <div id="questions">
+            <label for="q1">Do you required Dental surgery?</label><br><br>
+            <input type="radio" id="q1" name="Yes" value="YES">
+            <label for="yes">Yes</label><br><br>
+            <input type="radio" id="q1" name="Yes" value="NO">
+            <label for="no">NO</label><br><br>
+            <label for="q2">Have you visited our dental clinic before?</label><br><br>
+            <input type="radio" id="q2" name="No" value="YES">
+            <label for="yes">Yes</label><br><br>
+            <input type="radio" id="q2" name="No" value="NO">
+            <label for="no">NO</label><br><br>
+            <label for="q3">Have you experienced dental illness/dental surgery in the past?</label><br><br>
+            <input type="radio" id="q3" name="YN" value="YES">
+            <label for="yes">Yes</label><br><br>
+            <input type="radio" id="q3" name="YN" value="NO">
+            <label for="no">NO</label><br><br>
+        </div>
+        <div id="ds">
+            <label for="ds">Doctor Selection</label>
+            <select id="ds" name="ds">
+                <option value="Dr Suraj Agrawal"> Dr Suraj Agrawal</option>
+                <option value="Dr Roop Nagar"> Dr Roop Nagar</option>
+                <option value="Dr Rohan"> Dr Rohan</option>
+                <option value="Dr Bhati"> Dr Bhati</option>
+                <option value="Dr Ravi"> Dr Ravi</option>
+                <option value="Dr Yogesh"> Dr Yogesh</option>
+            </select>
+        </div><br><br>
+        <div id="btn">
+            <button>Submit</button>
+        </div>
+
+    </form>
+
+
+</body>
+<script src="./hospital.js"></script>
+
+</html>

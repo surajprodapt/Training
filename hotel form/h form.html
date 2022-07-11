@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL BOOKING FORM</title>
+</head>
+<body><div id="wrapper">
+    <div id="heading">
+        <h1>Hotel Booking</h1>
+    </div>
+    <hr>
+    <div id="form">
+        <div id="name">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="fname" placeholder="Last Name" required>
+        </div>
+        <br/>
+        <div id="email">
+            <label for="ema">Email</label>
+            <input type="email" id="ema" name="email" placeholder="ex: myname@example.com" required>
+        </div>
+        <br/>
+        <div id="roomtype">
+            <label>Room Type: </label>
+            <select name="roomtypes" id="roomtypes" required>
+                <option value="StandardRoom">Standard Room (1-2 Peoples)</option>
+                <option value="FamilyRoom">Family Room (1-4 Peoples)</option>
+                <option value="PrivateRoom">Private Room (1-3 Peoples)</option>
+                <option value="MixDormRoom">Mix Dorm Room (6 Peoples)</option>
+                <option value="FemaleDormRoom">Female Dorm Room (6 Peoples)</option>
+                <option value="MaleDormRoom">Male Dorm Room (6 Peoples)</option>
+            </select>
+        </div>
+        <br/>
+        <div id="guestcount">
+            <label for="guestnumber">Number Of Guests</label>
+            <input type="number" min="1" max="6" id="guestnumber" required>
+        </div>
+        <br/>
+        <div id="day">
+            <label for="datentime">Arival Date and Time</label>
+            <input type="datetime-local" id="datentime" required>
+        </div>
+        <br/>
+        <div id="depart">
+            <label for="leaving">Departure Date</label>
+            <input type="date" id="leaving" required>
+        </div>
+        <br/>
+        <div id="pick">
+            <label>Free Pickup?</label>
+            <input type="radio" id="yes" name="picking" value="YES">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="picking" value="NO">
+            <label for="no">NO</label>
+        </div>
+        <br/>
+        <div id="flightnumber">
+            <label for="flightno">Flight Number</label>
+            <input type="text" id="flightno">
+        </div>
+        <br/>
+        <div id="sprequest">
+            <label for="specialreq">Special Request</label>
+            <textarea id="specialreq" name="specialreq" rows="4" cols="50"></textarea>
+        </div>
+    </div>
+</div>
+</body>
+</html>

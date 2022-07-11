@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+}
+@media screen and (min-width: 576px){
+    body{
+        background-color: aliceblue;
+    }
+}
+
+
+@media screen and(max-width: 767) */
+    /*body{
+        background-color: black;
+    }*/
+    
+ 
+/* #products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}   
+#products .product{
+    width: 100%;
+    background-color: brown
+}
+}
+#products{
+    width: 1425px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#products .product{
+    width: 300px;
+    background-color: blueviolet;
+}
